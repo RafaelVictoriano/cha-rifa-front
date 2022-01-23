@@ -1,0 +1,43 @@
+<head>
+  <meta
+    name="description"
+    content="Um site para realizar seus sorteios de um modo facil"
+  />
+  <title>Sorteio chá-rifa da Olívia</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="header-image" src="assets/logo.svg" alt="Logo baby" />
+    <nav class="header-menu">
+      <a class="header-menu-item">Comunidade</a>
+      <a class="header-menu-item">Tutorial</a>
+      <a class="header-menu-item">Open Source</a>
+      <a class="header-menu-item">Participantes</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="content-principal">
+      <div class="content-principal-write">
+        <h1 class="content-principal-write-title">Cha-rifa da Olivia</h1>
+        <h2 class="content-principal-write-subtitle">Agradecemos a todos que estao pariticipando</h2>
+        <button class="content-principal-write-button" (click)="getWinner()">Sotear</button>
+      </div>
+
+      <div>
+        <img src="assets/boot-baby.png" alt="imagem baby-boot" />
+      </div>
+    </section>
+
+    <section class="content-secundary">
+      <div class="winner"> {{clickMessage}}</div>
+      <h3 class="content-secundary-title">Sorteio cha-rifa da Olivia</h3>
+      <p class="content-secundary-p"><strong>Realize seus sorteios aqui</strong></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer-image" src="assets/LSLS1.png" alt="imagem de um bb" />
+  </footer>
+</body>
