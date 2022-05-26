@@ -23,14 +23,6 @@ export class HomeComponent implements OnInit {
   constructor(private httpCLient: HttpClient) {}
 
   ngOnInit(): void {
-    // this.getWinner().subscribe(
-    //   (winner: Winner) => {
-    //     console.log(winner);
-    //     this.clickMessage = winner.winner;
-    //     console.log(this.clickMessage);
-    //   },
-    //   (error) => console.log(error)
-    // );
   }
 
   getWinner(): void {
